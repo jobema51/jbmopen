@@ -93,31 +93,31 @@ div.img-service{
 }
 
 @media(max-width:480px){
- body{
-	background-color:white;
-}
- div.contenedor{
-	background-color:white;
-	margin:90px auto 0 auto;
-	width:100%;
- }
- p{
+  p{
 	font-family:´Times New Roman´,sans serif;
 	font-size:17px;
 	text-align:justify;
 }
- .menu{
-	background:cyan;
-	text-align:center;
-	font-weight:bold;
-	margin:90px auto 0px auto;
-	padding-bottom:40px;
- }
- nav ul li{
+
+ nav.menu ul li{
 	margin-right:20px;
+	padding-top:0px;
+	margin-bottom:5px;
+}
+nav.menu ul li a{
+	color: #fe4918;
+	font-size:1em;
+	font-family: 'Oswald', sans-serif;
+	transition:all .4s ease;
 }
 nav ul li a:hover{
 	background: purple; 
 }
+div.redes-sociales{
+	padding-top:15px;
 }
-	
+div.contenido{
+	margin-top:60px;
+	padding-top:220px;
+}
+}
