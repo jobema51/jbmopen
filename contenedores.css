@@ -98,7 +98,11 @@ div.img-service{
 	font-size:17px;
 	text-align:justify;
 }
-
+ p.oferta{
+	font-family:´Times New Roman´,sans serif;
+	font-size:28px;
+	text-align:justify;
+}
  nav.menu ul li{
 	margin-right:20px;
 	padding-top:0px;
