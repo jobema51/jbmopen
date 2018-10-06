@@ -46,7 +46,7 @@ h3{
 }
 @media(max-widht:480px){
 p.oferta{
-	font-family:'Oswald','Times New Roman',sans serif;
+	font-family:'Oswald',sans serif;
 	font-size:30px;
 	text-align:justify;
 }
