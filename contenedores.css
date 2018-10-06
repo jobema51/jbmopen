@@ -94,12 +94,12 @@ div.img-service{
 
 @media(max-width:480px){
   p{
-	font-family:´Times New Roman´,sans serif;
+	font-family:'Times New Roman',sans serif;
 	font-size:17px;
 	text-align:justify;
 }
  p.oferta{
-	font-family:'PT Sans',´Times New Roman´,sans serif;
+	font-family:'PT Sans','Times New Roman',sans serif;
 	font-size:30px;
 	text-align:justify;
 }
