@@ -125,11 +125,11 @@ div.contenido{
 	padding-top:220px;
 }
 	div.mapa{
-	height:550px;
+	height:100%;
 	background-color:green;
 }
 h3.contacto{
-	font-size:30px;
+	font-size:50px;
 }
 p.contacto{
 	font-size:30px;
