@@ -125,7 +125,7 @@ div.contenido{
 	padding-top:220px;
 }
 div.nosotros{
-	height:50%;
+	height:150%;
 }
 div.mapa{
 	height:50%;
@@ -134,7 +134,7 @@ div.mapa{
 h3#contacto{
 	font-size:1000px;
 }
-p#contacto{
+p.contacto{
 	font-size:150%;
  }
 }
