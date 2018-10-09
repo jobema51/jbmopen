@@ -131,10 +131,10 @@ div.mapa{
 	height:50%;
 	background-color:green;
 }
-h3.contacto{
+h3#contacto{
 	font-size:xx-large;
 }
-p.contacto{
+p#contacto{
 	font-size:150%;
  }
 }
