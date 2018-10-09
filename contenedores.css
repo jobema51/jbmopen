@@ -125,16 +125,10 @@ div.contenido{
 	padding-top:220px;
 }
 div.nosotros{
-	height:150%;
+	height:100%;
 }
 div.mapa{
 	height:50%;
-	background-color:green;
+	background-color:red;
 }
-h3#contact{
-	font-size:1000px;
-}
-p.contacto{
-	font-size:150%;
- }
 }
