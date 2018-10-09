@@ -124,4 +124,14 @@ div.contenido{
 	margin-top:60px;
 	padding-top:220px;
 }
+	div.mapa{
+	height:550px;
+	background-color:green;
+}
+h3.contacto{
+	font-size:30px;
+}
+p.contacto{
+	font-size:30px;
+ }
 }
