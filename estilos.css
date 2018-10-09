@@ -147,3 +147,7 @@ p.copyright{
 	background:#3dad778a;
 	text-align:center;
 }
+div.mapa{
+	height:480px;
+	background-color:green;
+}
