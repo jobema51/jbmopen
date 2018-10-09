@@ -124,7 +124,10 @@ div.contenido{
 	margin-top:60px;
 	padding-top:220px;
 }
-	div.mapa{
+div.nosotros{
+	height:100%;
+}
+div.mapa{
 	height:100%;
 	background-color:green;
 }
