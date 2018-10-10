@@ -50,6 +50,9 @@ p.oferta{
 	font-size:2em;
 	text-align:justify;
 }
+p.contact{
+	font-size:2em;
+ }
 }
 p{
 	font-family: 'PT Sans',sans-serif;
