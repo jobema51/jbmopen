@@ -44,10 +44,10 @@ h3{
 	
 	font-variant:small-caps;
 }
-@media(max-widht:600px){
+@media(max-widht:450px){
 p.oferta{
 	font-family:'Oswald',sans-serif;
-	font-size:2em;
+	font-size:5em;
 	text-align:justify;
 }
 p.contact{
