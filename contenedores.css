@@ -128,6 +128,7 @@ div.nosotros{
 	height:100%;
 }
 div.mapa{
+	margin-top:20px;
 	height:50%;
 	background-color:red;
 }
