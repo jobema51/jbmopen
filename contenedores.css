@@ -125,11 +125,9 @@ div.contenido{
 	padding-top:220px;
 }
 div.nosotros{
-	height:100%;
-	margin-bottom:20px;
 }
 div.mapa{
-	height:50%;
+	height:100%;
 	background-color:red;
 }
 h3.contacto{
