@@ -44,7 +44,7 @@ h3{
 	
 	font-variant:small-caps;
 }
-@media(max-widht:480px){
+@media(max-widht:400px){
 p.oferta{
 	font-family:'Oswald',sans-serif;
 	font-size:2em;
