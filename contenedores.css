@@ -126,9 +126,10 @@ div.contenido{
 }
 div.nosotros{
 	height:100%;
+	margin-bottom:20px;
 }
 div.mapa{
-	margin-top:20px;
+	margin-top:40px;
 	height:50%;
 	background-color:red;
 }
