@@ -30,6 +30,7 @@ div.encabezado{
 h2{
 	color:white;
 	font-family: 'Oswald', sans-serif;
+	font-style:normal;
 	background-color:rgba(0,0,0,0.55);
 	padding:10px;
 	margin-top:30px;
