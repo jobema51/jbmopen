@@ -27,28 +27,21 @@ div.encabezado{
 	background-size:cover;
 	margin:auto auto 0px auto;
 }
+h2{
+	color:white;
+	font-family: 'Oswald', sans-serif;
+	/*background-color:#2e3845;*/
+	background-color:rgba(0,0,0,0.55);
+	padding:10px;
+	margin-top:0px;
+	font-weight:bold;
+	font-size:25px;
+}
 div.redes-sociales{
 	background-image:url(../servidor_web/img/header_webme.jpg);
 	margin:auto;
 }
-nav.redes_sociales{
-    text-align:center;
-}
-nav.redes_sociales ul{
-	list-style:none;
-}
-nav.redes_sociales ul li{
-	display:inline-block;
-}
-nav.redes_sociales ul li a{
-	font-size:1.5em;
-	text-shadow:1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-	color:#ffffff;
-	margin-top:5px;
-	margin-right:20px;
-	padding-right:30px;
-	
-}
+
 div.menu{
 	background-color:#353535;
 	margin:auto;
@@ -92,8 +85,34 @@ div.contenido{
 div.img-service{
 }
 
-@media(max-width:480px){
-  p{
+@media(min-width:480px){
+header{
+	margin-bottom:50px;
+	position:fixed;	
+	/*border:4px solid black;*/
+	top:20;
+	left:0;
+	width:100%;
+}h2{
+	color:white;
+	font-family:'Times New Roman', sans-serif;
+	/*background-color:#2e3845;*/
+	background-color:rgba(0,0,0,0.55);
+	margin-top:20px;
+	padding:10px;
+	font-weight:bold;
+	font-style:normal;
+	font-size:30px;
+}
+div.menu{
+	background-color:dark black;
+	margin: auto;
+	padding-top:1px;
+	padding-bottom:5px;
+	text-align:left;
+}
+
+p{
 	font-family:'Times New Roman',sans-serif;
 	font-size:17px;
 	text-align:justify;
@@ -120,9 +139,16 @@ nav ul li a:hover{
 div.redes-sociales{
 	padding-top:15px;
 }
+div.hero{
+	height:60px;
+	background-image:url(../servidor_web/img/header_webme.jpg);
+	margin:auto;
+	padding-top:10px;
+	padding-bottom:10px;
+}
 div.contenido{
-	margin-top:60px;
-	padding-top:220px;
+	margin-top: 90px;
+	padding-top:10px;
 }
 div.nosotros{
 }
