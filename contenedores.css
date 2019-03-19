@@ -77,6 +77,11 @@ div.contenido{
 	padding-top:99px;
 	margin-bottom:40px;
 }
+nav.navegacion{
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+        text-align:center;
+}
 div.img-service{
 }
 
