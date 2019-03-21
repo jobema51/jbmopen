@@ -1,1 +1,48 @@
+/html{
+	box-sizing:border-box;
+}
+
+h1{
+	font-family: 'PT Sans', sans-serif;
+	color: #f2f2f2;
+	font-size:30px;
+	text-align:center;
+	text-shadow:1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+h2.oferta{
+	margin-top:10px;
+	margin-bottom:0px;
+	font-family:'Times New Roman', sans-serif;
+	font-size:22px;
+}
+a{
+	text-transform:uppercase;
+	text-decoration:none;
+}
+a#volver{
+	margin-right:10px;
+	padding-right:5px;
+	font-size:11px;
+	color:darkblue;
+}
+a#volver:hover{
+		color:#fe4918;
+}
+
+div#servicios{
+	max-width:100%;
+	display:block;
+	margin-top:0px;
+	padding-top:0px;
+}
+	
+#servicios{
+	background-color:gray;
+	color:white; 
+	font-family: 'PT Sans';
+	font-size:15px;
+	border: 5px solid #00b8e4;
+	/*border: 5px solid #2e3845;*/
+	line-height:27px;
+}
 
