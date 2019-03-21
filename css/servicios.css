@@ -1,7 +1,10 @@
 /html{
 	box-sizing:border-box;
 }
-
+body{
+	background-image:url(../servidor_web/img/swirlies.gif);
+	font-family: 'Open Sans', sans-serif;
+}
 h1{
 	font-family: 'PT Sans', sans-serif;
 	color: #f2f2f2;
