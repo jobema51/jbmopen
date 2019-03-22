@@ -1,6 +1,3 @@
-/html{
-	box-sizing:border-box;
-}
 body{
 	/*background-color:#ccffcc;*/
 	/*background-color:#2e3845;*/
@@ -23,12 +20,6 @@ div.hero{
 	padding-top:5px;
 	padding-bottom:10px;
 }
-div.encabezado{
-	background-image:url(../servidor_web/img/header_webme.jpg);
-	background-size:cover;
-	margin:auto auto 0px auto;
-}
-
 h2{
 	color:white;
 	font-family:'Times New Roman', sans-serif;
