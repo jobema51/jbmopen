@@ -2,7 +2,7 @@ body{
 	/*background-color:#ccffcc;*/
 	/*background-color:#2e3845;*/
 	/*background-color:#808935;*/
-	background-image:url(../img/swirlies.gif);
+	background-image:url(..jbmopen/img/swirlies.gif);
 	font-family: 'Open Sans', sans-serif;
 }
 header{
@@ -14,7 +14,7 @@ header{
 	width:100%;
 }
 div.hero{
-	background-image:url(../img/header_webme.jpg);
+	background-image:url(..jbmopen/img/header_webme.jpg);
 	height:50px;
 	margin:auto auto 0px auto;
 	padding-top:5px;
@@ -171,7 +171,7 @@ nav ul li a:hover{
 
 div.hero{
 	height:60px;
-	background-image:url(../img/header_webme.jpg);
+	background-image:url(..jbmopen/img/header_webme.jpg);
 	margin:auto;
 	padding-top:10px;
 	padding-bottom:10px;
