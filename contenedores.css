@@ -1,10 +1,12 @@
+/html{
+	box-sizing:border-box;
+}
 body{
 	/*background-color:#ccffcc;*/
 	/*background-color:#2e3845;*/
 	/*background-color:#808935;*/
-	background-image:url(../jbmopen/img/swirlies.gif);
+	background-image:url(../servidor_web/img/swirlies.gif);
 	font-family: 'Open Sans', sans-serif;
-
 }
 header{
 	margin-bottom:5px;
@@ -23,18 +25,18 @@ div.hero{
 }
 div.encabezado{
 	background-image:url(../servidor_web/img/header_webme.jpg);
-	
 	background-size:cover;
 	margin:auto auto 0px auto;
 }
+
 h2{
 	color:white;
-	font-family: 'Oswald', sans-serif;
-	font-style:normal;
+	font-family:'Times New Roman', sans-serif;
 	background-color:rgba(0,0,0,0.55);
-	padding:10px;
 	margin-top:30px;
+	padding:10px;
 	font-weight:bold;
+	font-style:normal;
 	font-size:20px;
 }
 div.menu{
@@ -43,10 +45,15 @@ div.menu{
 	padding-top:1px;
 	padding-bottom:5px;
 }
+p{
+	font-family: 'PT Sans', sans-serif;
+	font-style:normal;
+	font-size:14px;
+}
 nav.menu{
 	display:block;
 	font-weight:bold;
-	box-shadow:0px 20px 30px -20px yellow;
+	/*box-shadow:0px 20px 30px -20px yellow;*/
 }
 nav.menu ul{ 
 	padding:5px auto 5px auto;
@@ -55,12 +62,13 @@ nav.menu ul{
 }
 nav.menu ul li{
 	float:left;
-	margin-right:0px;
+	margin-right:50px;
 }
 nav.menu ul li a{
 	color: #ccffcc;
-	font-size:1em;
+	font-size:.8em;
 	font-family: 'Oswald', sans-serif;
+	font-style:normal;
 	margin-top:10px;
 	margin-right:60px;
 	padding:10px 20px;
@@ -80,7 +88,7 @@ div.contenido{
 nav.navegacion{
 	font-family: 'Open Sans', sans-serif;
 	font-size:11px;
-        text-align:center;
+    text-align:center;
 }
 div.img-service{
 }
@@ -93,7 +101,8 @@ header{
 	top:20;
 	left:0;
 	width:100%;
-}h2{
+}
+h2{
 	color:white;
 	font-family:'Times New Roman', sans-serif;
 	/*background-color:#2e3845;*/
@@ -117,28 +126,58 @@ p{
 	font-size:17px;
 	text-align:justify;
 }
- p.oferta{
-	font-family:'Times New Roman',sans-serif;
-	font-size:30px;
-	text-align:justify;
+div#servicios{
+	display:block;
+	margin-top:0px;
+	padding-top:0px:
+	width:100px;
 }
- nav.menu ul li{
-	margin-right:20px;
+#servicios{
+	background-color:dark blue;
+	color:white; 
+	text-align:justify;
+	font-family: 'Times New Roman',sans-serif;
+	font-size:18px;
+	border: 5px solid #2e3845;
+	line-height:27px;
+}
+p.oferta{
+	font-family: 'PT Sans',sans-serif;
+	font-size:17px;
+	float:right;
+	width:50%;
+}
+p#costo{
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+	margin-left:50px;
+	margin-bottom:0px;
+	color:rgba(0,0,0,0.55);
+}
+p span{
+	font-size:30px;
+	color:#ffce00;
+}
+nav.menu ul{ 
+   
+	margin-bottom:0px;
+}
+nav.menu ul li{
+	margin-right:15px;
 	padding-top:0px;
-	margin-bottom:5px;
+	margin-bottom:4px;
 }
 nav.menu ul li a{
-	color: #fe4918;
+	color: #fe4920;
 	font-size:1em;
 	font-family: 'Oswald', sans-serif;
 	transition:all .4s ease;
 }
 nav ul li a:hover{
-	background: purple; 
+	/*background: purple;*/ 
 }
-div.redes-sociales{
-	padding-top:15px;
-}
+
 div.hero{
 	height:60px;
 	background-image:url(../servidor_web/img/header_webme.jpg);
@@ -150,16 +189,15 @@ div.contenido{
 	margin-top: 90px;
 	padding-top:10px;
 }
-div.nosotros{
-}
 div.mapa{
-	height:100%;
+	height:550px;
 	background-color:red;
 }
-h3.contact{
-	font-size:50px;
+h3.contacto{
+	font-size:30px;
 }
-p.contact{
-	font-size:40px;
+p.contacto{
+	font-size:30px;
  }
 }
+	
