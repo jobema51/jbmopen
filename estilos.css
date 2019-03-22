@@ -30,6 +30,7 @@ h2.oferta{
 	margin-bottom:0px;
 	font-family:'Times New Roman', sans-serif;
 	font-size:22px;
+	float:right;
 }
 h3{
 	
@@ -55,6 +56,7 @@ div.pcc{
 	text-align:center;
 	margin-right:0px;
 	width:50%;
+	float:left;
 }
 div.pcc img{
 	max-width:190%;
