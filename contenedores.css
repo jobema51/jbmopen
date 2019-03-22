@@ -136,7 +136,7 @@ div#servicios{
 p.oferta{
 	font-family: 'PT Sans',sans-serif;
 	font-size:17px;
-	float:right;
+	/*float:right;*/
 	width:50%;
 }
 p#costo{
