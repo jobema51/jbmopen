@@ -54,12 +54,11 @@ a#volver:hover{
 		color:#fe4918;
 }
 div.oferta{
-	margin:auto;
 	display:block;
 }
 div.pcc{
 	margin-top:10px;
-	/*display:inline-block;*/
+	display:block;
 	margin-right:0px;
 	/*width:50%;*/
 }
