@@ -56,10 +56,10 @@ a#volver:hover{
 }
 
 div.pcc{
-	margin-top:10px;
-	display:block;
+	margin-top:5px;
+	display:inline-block;
 	margin-right:0px;
-	/*width:50%;*/
+	width:50%;
 }
 div.pcc img{
 	max-width:190%;
