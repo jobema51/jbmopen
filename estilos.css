@@ -53,7 +53,7 @@ div.oferta{
 }
 div.pcc{
 	margin-top:10px;
-	display:inline-block;
+	/*display:inline-block;*/
 	text-align:center;
 	margin-right:0px;
 	width:50%;
