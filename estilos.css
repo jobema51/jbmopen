@@ -7,7 +7,7 @@
 	/*font-size:15px;*/
 }
 *, *:before, *:after{
-box-sizing:inherit;
+ box-sizing:inherit;
 }
 .clearfix:before,
 .clearfix:after{
@@ -28,27 +28,14 @@ h1{
 h2.oferta{
 	margin-top:10px;
 	margin-bottom:0px;
-	font-family: 'Oswald', sans-serif;
-	font-size:25px;
+	font-family:'Times New Roman', sans-serif;
+	font-size:22px;
 }
 h3{
 	
 	font-variant:small-caps;
 }
-@media(max-widht:576px){
-p.oferta{
-	font-family:'Oswald',sans-serif;
-	font-size:5em;
-	text-align:justify;
-}
-p.contact{
-	font-size:5em;
- }
-}
-p{
-	font-family: 'PT Sans',sans-serif;
-	font-size:17px;
-}
+
 a{
 	text-transform:uppercase;
 	text-decoration:none;
@@ -62,28 +49,26 @@ a#volver{
 a#volver:hover{
 		color:#fe4918;
 }
-
-div#servicios{
-	max-width:100%;
-	display:block;
-	margin-top:0px;
-	padding-top:0px;
-}
-	
-#servicios{
-	background-color:gray;
-	color:white; 
-	font-family: 'Open Sans', sans-serif;
-	font-size:18px;
-	border: 5px solid #2e3845;
-	line-height:27px;
-}
 div.pcc{
+	margin-top:10px;
 	display:inline-block;
 	text-align:center;
-	margin-right:0px;;
-	margin-left:20px;
-	
+	margin-right:0px;
+	width:50%;
+}
+div.pcc img{
+	max-width:190%;
+	filter:gray;
+	-webkit-filter:grayscale(1);
+	-webkit-transition:all .5s ease-in-out;
+}
+
+@media(min-width:576px){
+h2.oferta{
+	margin-top:10px;
+	margin-bottom:0px;
+	font-family:'Times New Roman', sans-serif;
+	font-size:30px;
 }
 div.pcc img{
 	max-width:100%;
@@ -91,14 +76,16 @@ div.pcc img{
 	-webkit-filter:grayscale(1);
 	-webkit-transition:all .5s ease-in-out;
 }
+}
 div.pcc:hover img{
 	-webkit-filter:grayscale(0);
 	-webkit-transform:scale(1.1);
 }
 p#costo{
+
 	font-size:25px;
 	font-weight:bold;
-	margin-left:50px;
+	margin-left:100px;
 	margin-bottom:0px;
 	color:rgba(0,0,0,0.55);
 }
@@ -106,9 +93,10 @@ p span{
 	font-size:35px;
 	color:#ffce00;
 }
+
 .boton{
 	background-color:#ffde00;
-	margin:10px 0 0 50px;
+	margin:10px 0 0 90px;
 	padding:10px 40px;
 	display:inline-block;
 	text-transform:uppercase;
@@ -140,7 +128,7 @@ footer nav{
 }
 p.copyright{
 	background:#3dad778a;
-	font-size:10px;
+	font-size:11px;
 	text-align:center;
 }
 div.mapa{
