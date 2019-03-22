@@ -2,7 +2,7 @@
 	box-sizing:border-box;
 }
 body{
-	background-image:url(../img/header_webme.jpg);
+	background-color:light blue;
 	/*background-image:url(../servidor_web/img/swirlies.gif);*/
 	font-family: 'Open Sans', sans-serif;
 }
