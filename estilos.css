@@ -34,13 +34,13 @@ h2.oferta{
 h3{
 	font-variant:small-caps;
 }
-p.oferta{
+/*p.oferta{
 	font-family: 'PT Sans',sans-serif;
 	font-size:20px;
 	text-align:left;
 	float:left;
 	width:100%;
-}
+}*/
 a{
 	text-transform:uppercase;
 	text-decoration:none;
