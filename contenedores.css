@@ -36,6 +36,11 @@ div.menu{
 	padding-top:0px;
 	padding-bottom:5px;
 }
+div.contenido{
+	margin-top:80px;
+	padding-top:99px;
+	margin-bottom:40px;
+}
 
 p{
 	font-family: 'PT Sans', sans-serif;
@@ -71,11 +76,6 @@ nav.menu ul li a:hover{
 }
 nav.menu ul li:hover a{
 	color:#ffffff;
-}
-div.contenido{
-	margin-top:80px;
-	padding-top:99px;
-	margin-bottom:40px;
 }
 nav.navegacion{
 	font-family: 'Open Sans', sans-serif;
