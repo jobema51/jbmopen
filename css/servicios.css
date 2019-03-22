@@ -2,8 +2,8 @@
 	box-sizing:border-box;
 }
 body{
-	background-color:light blue;
-	/*background-image:url(../servidor_web/img/swirlies.gif);*/
+	background-color:#ccffcc;
+	background-image:url(../servidor_web/img/swirlies.gif);
 	font-family: 'Open Sans', sans-serif;
 }
 h1{
