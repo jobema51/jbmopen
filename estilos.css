@@ -27,8 +27,6 @@ h1{
 h2.oferta{
 	color:white;
 	background-color:rgba(0,0,0,0.55);
-	margin-top:30px;
-	padding:10px;
 	font-weight:bold;
 	font-family:'Times New Roman', sans-serif;
 	font-size:30px;
@@ -38,7 +36,7 @@ h3{
 }
 p.oferta{
 	font-family: 'PT Sans',sans-serif;
-	font-size:40px;
+	font-size:20px;
 	text-align:left;
 	width:100%;
 }
@@ -60,7 +58,7 @@ div.oferta{
 }
 div.pcc{
 	margin-top:10px;
-	display:inline-block;
+	display:block;
 	margin-right:0px;
 	/*width:50%;*/
 }
