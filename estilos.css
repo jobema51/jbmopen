@@ -35,11 +35,11 @@ h3{
 	
 	font-variant:small-caps;
 }
-/*p.oferta{
+p.oferta{
 	font-family: 'PT Sans',sans-serif;
-	font-size:14px;
+	font-size:20px;
 	width:100%;
-}*/
+}
 a{
 	text-transform:uppercase;
 	text-decoration:none;
@@ -54,12 +54,13 @@ a#volver:hover{
 		color:#fe4918;
 }
 div.oferta{
+	text-align:justify;
 	display:block;
 }
 div.pcc{
 	margin-top:10px;
 	/*display:inline-block;*/
-	text-align:center;
+	text-align:left;
 	margin-right:0px;
 	/*width:50%;*/
 }
