@@ -31,13 +31,13 @@ h2{
 	font-size:20px;
 }
 div.menu{
-	/*background-color:#353535;*/
+	background-color:#353535;
 	margin-top:10px;
 	padding-top:0px;
 	padding-bottom:5px;
 }
 div.contenido{
-	margin-top:200px;
+	margin-top:150px;
 	padding-top:20px;
 	margin-bottom:20px;
 }
