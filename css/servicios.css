@@ -2,7 +2,8 @@
 	box-sizing:border-box;
 }
 body{
-	background-image:url(../servidor_web/img/swirlies.gif);
+	background-image:url(../img/header_webme.jpg);
+	/*background-image:url(../servidor_web/img/swirlies.gif);*/
 	font-family: 'Open Sans', sans-serif;
 }
 h1{
@@ -33,7 +34,6 @@ a#volver:hover{
 }
 
 div#servicios{
-	background-image:url(../img/header_webme.jpg);
 	width:100%;
 	display:block;
 	margin-top:0px;
