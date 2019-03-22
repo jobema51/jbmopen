@@ -54,6 +54,9 @@ a#volver{
 a#volver:hover{
 		color:#fe4918;
 }
+div#offer{
+	display:block;
+}
 
 div.pcc{
 	margin-top:5px;
