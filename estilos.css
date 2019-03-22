@@ -39,7 +39,7 @@ p.oferta{
 	font-family: 'PT Sans',sans-serif;
 	font-size:30px;
 	text-align:justify;
-	width:100%;
+	/*width:100%;*/
 }
 a{
 	text-transform:uppercase;
@@ -55,13 +55,11 @@ a#volver:hover{
 		color:#fe4918;
 }
 div.oferta{
-	text-align:justify;
 	display:block;
 }
 div.pcc{
 	margin-top:10px;
 	/*display:inline-block;*/
-	text-align:left;
 	margin-right:0px;
 	/*width:50%;*/
 }
