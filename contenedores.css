@@ -132,13 +132,13 @@ div#servicios{
 	border: 5px solid #2e3845;
 	line-height:27px;
 }
-p#costo{
+/*p#costo{
 	font-size:30px;
 	font-weight:bold;
 	margin-left:50px;
 	margin-bottom:0px;
 	color:rgba(0,0,0,0.55);
-}
+}*/
 p span{
 	font-size:30px;
 	color:#ffce00;
