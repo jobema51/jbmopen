@@ -76,7 +76,7 @@ p#costo{
 	margin-bottom:0px;
 	color:rgba(0,0,0,0.55);
 }
-@media(min-width:576px){
+@media(min-width:768px){
 h2.oferta{
 	margin-top:10px;
 	margin-bottom:0px;
