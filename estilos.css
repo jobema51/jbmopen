@@ -93,12 +93,7 @@ div.pcc img{
 	-webkit-filter:grayscale(1);
 	-webkit-transition:all .5s ease-in-out;
 }
-}
-div.pcc:hover img{
-	-webkit-filter:grayscale(0);
-	-webkit-transform:scale(1.1);
-}
-p#costo{
+	p#costo{
 
 	font-size:25px;
 	font-weight:bold;
@@ -106,10 +101,27 @@ p#costo{
 	margin-bottom:0px;
 	color:rgba(0,0,0,0.55);
 }
-p span{
+	p span{
 	font-size:35px;
 	color:#ffce00;
 }
+}
+div.pcc:hover img{
+	-webkit-filter:grayscale(0);
+	-webkit-transform:scale(1.1);
+}
+/*p#costo{
+
+	font-size:25px;
+	font-weight:bold;
+	margin-left:100px;
+	margin-bottom:0px;
+	color:rgba(0,0,0,0.55);
+}*/
+/*p span{
+	font-size:35px;
+	color:#ffce00;
+}*/
 
 .boton{
 	background-color:#ffde00;
