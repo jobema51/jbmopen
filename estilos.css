@@ -78,6 +78,11 @@ h2.oferta{
 	font-family:'Times New Roman', sans-serif;
 	font-size:30px;
 }
+p.oferta{
+	font-size:20px;
+	text-align:justify;
+	float:left;
+	}
 div.pcc img{
 	max-width:100%;
 	filter:gray;
