@@ -112,7 +112,6 @@ div.menu{
 	padding-bottom:5px;
 	text-align:left;
 }
-
 p{
 	font-family:'Times New Roman',sans-serif;
 	font-size:17px;
@@ -133,13 +132,15 @@ div#servicios{
 	border: 5px solid #2e3845;
 	line-height:27px;
 }
-p.oferta{
+/*p.oferta{
 	font-family: 'PT Sans',sans-serif;
 	font-size:17px;
 	float:right;
 	width:50%;
-}
-
+}*/
+p.oferta{
+	text-align:justify;
+	}
 p#costo{
 	text-align:center;
 	font-size:30px;
