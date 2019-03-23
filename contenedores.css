@@ -132,16 +132,6 @@ div#servicios{
 	border: 5px solid #2e3845;
 	line-height:27px;
 }
-/*p.oferta{
-	font-family: 'PT Sans',sans-serif;
-	font-size:17px;
-	float:right;
-	width:50%;
-}*/
-p.oferta{
-	font-size:20px;
-	text-align:justify;
-	}
 p#costo{
 	text-align:center;
 	font-size:30px;
