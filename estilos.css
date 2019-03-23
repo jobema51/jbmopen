@@ -69,7 +69,13 @@ div.pcc img{
 	-webkit-filter:grayscale(1);
 	-webkit-transition:all .5s ease-in-out;
 }
-
+p#costo{
+	font-size:30px;
+	font-weight:bold;
+	margin-left:50px;
+	margin-bottom:0px;
+	color:rgba(0,0,0,0.55);
+}
 @media(min-width:576px){
 h2.oferta{
 	margin-top:10px;
@@ -78,7 +84,6 @@ h2.oferta{
 	font-size:30px;
 }
 p.oferta{
-
 	text-align:justify;
 	float:right;
 	}
