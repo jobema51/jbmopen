@@ -130,6 +130,9 @@ img {
 .site-header h1 span {
     font-weight: 700;
 }
+.contenido-principal p{
+    text-align:justify;
+}
 /** Navegacion **/
 .menu a{
     text-align: center;
