@@ -1,0 +1,68 @@
+
+html*{
+	box-sizing:border-box;
+}
+*, *:before, *:after{
+box-sizing:inherit;
+}
+div.logo{
+    background-image:url(../img/banner.jpg);
+    background-size:cover;
+    height: 22em;
+	width:100%;
+}
+.logo h1{
+    color:white;
+    font-weight:bold;
+    text-align: center;
+    font-weight: 400;
+}
+.logo a#volver{
+	text-align:center;
+}
+div.pcc img{
+	max-width:100%;
+	filter:gray;
+	-webkit-filter:grayscale(1);
+	-webkit-transition:all .5s ease-in-out;
+}
+div.pcc:hover img{
+	-webkit-filter:grayscale(0);
+	-webkit-transform:scale(1.1);
+}
+/*.contenido-blog p{
+	margin:5px;
+}*/
+.contenido-blog span{
+	font-size:35px;
+	color:#ffce00;
+}
+/** Botones **/
+.boton{
+	background-color:#ffde00;
+	display:block;
+    /*font-weight: 700;*/
+    font-size: 2rem;
+    flex: 0 0 100%;
+    /*text-align:center;*/
+	text-transform:uppercase;
+    text-decoration:none;
+	font-weight:bold;
+    font-family: 'PT Sans', sans-serif;
+	padding: 1rem 3rem;
+    margin: 2rem 0;
+    color: #ffffff;
+}
+.boton:hover{
+	color:rgba(128,1,195,1);
+    cursor: pointer;
+}
+img.productos{
+	width:500px;
+	height:300px;
+	padding-left:1px;	
+	border:5px solid rgba(128,1,195,.45);
+}
+img.productos:hover{
+	border:8px solid rgba(128,1,195,1);
+}
