@@ -172,10 +172,10 @@ img {
     margin-top: 5rem;
 }
 .texto-header h2 {
-    font-size: 1.1rem;
+    font-size: 3rem;
 }
 .texto-header p {
-    font-size: 1.1rem;
+    font-size: 2.2rem;
 }
 @media (min-width: 768px) {
     .texto-header{
