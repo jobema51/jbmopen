@@ -12,9 +12,9 @@ div.logo{
 }
 .logo h1{
     color:white;
-    font-weight:bold;
+    /*font-weight:bold;*/
     text-align: center;
-    /*font-weight: 400;*/
+    font-weight: 400;
 }
 .logo a#volver{
 	text-align:center;
