@@ -171,13 +171,22 @@ img {
     text-align: center;
     margin-top: 5rem;
 }
+.texto-header h2 {
+    font-size: 1.1rem;
+}
+.texto-header p {
+    font-size: 1.1rem;
+}
 @media (min-width: 768px) {
     .texto-header{
         margin-top: 15rem;
     }
+   .texto-header h2 {
+    font-size: 4rem;
 }
-.texto-header p {
+   .texto-header p {
     font-size: 2.2rem;
+}
 }
 /** Contenido Principal HOME **/
 .contenido{
