@@ -8,7 +8,7 @@ box-sizing:inherit;
 div.logo{
     background-image:url(../img/banner.jpg);
     background-size:cover;
-    height: 40rem;
+    height: 41.5rem;
 }
 .logo h1{
     color:white;
