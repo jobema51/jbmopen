@@ -180,11 +180,8 @@ img {
 }
 @media (min-width: 768px) {
     .texto-header{
-        margin-top: 15rem;
+     margin-top: 15rem;
     }
-   .texto-header h2 {
-    font-size: 4rem;
-}
    .texto-header p {
     font-size: 2.2rem;
 }
