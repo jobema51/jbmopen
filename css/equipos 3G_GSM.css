@@ -8,14 +8,13 @@ box-sizing:inherit;
 div.logo{
     background-image:url(../img/banner.jpg);
     background-size:cover;
-    height: 22em;
-	width:100%;
+    height: 41.5em;
 }
 .logo h1{
     color:white;
     font-weight:bold;
     text-align: center;
-    font-weight: 400;
+    /*font-weight: 400;*/
 }
 .logo a#volver{
 	text-align:center;
