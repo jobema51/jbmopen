@@ -8,7 +8,7 @@ box-sizing:inherit;
 div.logo{
     background-image:url(../img/banner.jpg);
     background-size:cover;
-    height: 42.8rem;
+    height: 44rem;
 }
 .logo h1{
     color:white;
@@ -17,7 +17,7 @@ div.logo{
     font-weight: 400;
 }
 div#servicios{
-	width:100%;
+	/*width:100%;*/
 	display:block;
 	margin-top:0px;
 	padding-top:0px;
