@@ -16,10 +16,19 @@ div.logo{
     text-align: center;
     font-weight: 400;
 }
-/.logo h2{
+.logo h2{
+	margin:0;
     color:white;
     text-align: center;
     font-weight: 400;
+}
+@media (min-width:768px){
+.barra h2{
+		margin:3rem auto;
+    }
+}
+.menu a{
+    text-align: center;
 }
 div#servicios{
 	/*width:100%;*/
