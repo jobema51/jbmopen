@@ -262,7 +262,7 @@ img {
 .site-footer {
     background-color: #000000;
     padding: 3rem;
-    margin-top: 4rem;
+    margin-top: auto;
 }
 .site-footer p {
     color: #ffffff;
