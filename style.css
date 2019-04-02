@@ -124,6 +124,7 @@ img {
 	color:#ffffff;
 }
 .site-header h1 {
+    margin-left:4rem;
     text-align: center;
     font-weight: 400;
 }
