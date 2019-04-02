@@ -313,6 +313,9 @@ img {
     display: flex;
     justify-content: flex-end;
 }
+.logo-contacto p{
+	color:white;
+}
 div.mapa{
 	height:550px;
 	background-color:red;
