@@ -1,27 +1,61 @@
-<html>
+<html class="no-js" lang="en">
  <head>
  <title>Pagina de Contacto</title>
-   <link rel="stylesheet" href="estilos.css">
-   <link rel="stylesheet" type="text/css" media="screen" href="contenedores.css">
-   <link rel="stylesheet" href="fontawesome.css">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, shrink-to-fit=no">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/style.css">
+   <!--<link rel="stylesheet" type="text/css" media="screen" href="contenedores.css">-->
+   <link rel="stylesheet" href="css/fontawesome.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans|Oswald|PT+Sans" rel="stylesheet">
-  <script>(function(v,p){
-  var s=document.createElement('script');
-  s.src='https://app.toky.co/resources/widgets/toky-widget.min.js?v='+v;
-  s.onload=function(){Toky.load(p);};
-  document.head.appendChild(s);
-    })('f35fe136', {"$username":"jbm","$bubble":false,"$option":"","$position":"left","$text":"Llámame Gratis!...pulsa aquí"})
-</script>
   </head>
   <body>
-    <div class="nosotros">
-            <h3 class="contact">Contactanos </h3>
-            <pre><p class="contact">Hotmail: jobema51@hotmail.com
-Gmail: jose.jobema@gmail.com 
-Skype: jobema2704
-Línea baja de Copaco: 021-233 - 610 y 021-329 1843</p></pre>
-    </div>
+  <header class="site-header">
+   <div class="logo">
+     <div class="contenedor">
+            <h3><span style="color:#00eedd;font-style:italic;margin:auto;display:table;">Contactanos</span></h3>
+            <p class="no-margin">Hotmail: jobema51@hotmail.com</p>
+			<p class="no-margin">Gmail: jose.jobema@gmail.com</p>
+			<p class="no-margin">Skype: jobema2704</p>
+			<p class="no-margin">Línea baja: 021-233 - 610</p>
+            <nav class="men">
+            <p class="no-margin">Vea más info en ------>>><a href="https://sytech.es.tl" TITLE="vea mi pagina web acá"> sytech.es.tl</a></p>
+            <nav>
+	  </div>
+	 </div>
+   </header>
+    <main class="contenedor">
+        <h2 class="centrar-texto">Contacto</h2>
+
+        <div class="grid centrar-columnas">
+            <div class="columnas-12">
+                <img src="img/contacto.jpg" alt="imagen contacto">
+            </div>
+
+            <div class="columnas-10 formulario-contacto">
+                <form action="#">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" placeholder="Tu Nombre">
+                    </div>
+                    <div class="campo">
+                        <label for="email">E-Mail</label>
+                        <input type="email" id="email" placeholder="Tu Correo Electrónico">
+                    </div>
+                    <div class="campo mensaje">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje"></textarea>
+                    </div>
+                    <div class="campo enviar">
+                        <input type="submit" value="Enviar" class="btn btn-primario">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
 	<div id="mapa" class="mapa"></div>
 	<script src="js/vendor/modernizr-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -36,5 +70,12 @@ Línea baja de Copaco: 021-233 - 610 y 021-329 1843</p></pre>
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
     </script>
     <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    <script>(function(v,p){
+    var s=document.createElement('script');
+    s.src='https://app.toky.co/resources/widgets/toky-widget.min.js?v='+v;
+    s.onload=function(){Toky.load(p);};
+    document.head.appendChild(s);
+    })('f35fe136', {"$username":"jbm","$bubble":false,"$option":"","$position":"left","$text":"Llámanos Gratis...pulsa aquí!"})
+    </script>
  </body>
 </html>
